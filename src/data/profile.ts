@@ -19,7 +19,8 @@ export const profile = {
   github: 'https://github.com/ssurya101',
   linkedin: 'https://www.linkedin.com/in/surya-sethuramasamy/',
   medium: 'https://medium.com/@suryasm0602',
-  resumeUrl: '/resume/surya-resume.pdf',
+  // `BASE_URL` is `/myWebsite/` on GitHub Pages and `/` during local development.
+  resumeUrl: `${import.meta.env.BASE_URL}resume/surya-resume.pdf`,
 } as const
 
 export type Profile = typeof profile
