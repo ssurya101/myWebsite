@@ -1,0 +1,498 @@
+1. Professional identity
+Software Engineer | Agentic AI & Backend Systems
+Professional positioning
+
+Backend Engineer building scalable backend systems and intelligent AI applications using Python, Java, LLMs, and multi-agent architectures.
+Backend Engineering
+Agentic AI
+LLM Engineering
+System Design
+Cloud Engineering
+
+Experience: Approximately 3–4 years | NIQ, Chennai | Software Engineer
+
+2. Technical skills
+These are the technologies and concepts you have discussed, implemented, or worked with.
+A. Programming languages
+Technology	Your experience
+Python	Backend development, AI applications, agent development
+Java	Backend development, enterprise applications
+SQL	Database queries and data processing
+C++	Programming fundamentals
+JavaScript	Web development fundamentals
+
+B. Backend engineering
+- Java 17
+- Python
+- Spring Framework
+- Spring Boot 3.x
+- Spring AI
+- REST API development
+- Microservices architecture
+- API integration
+- Distributed systems fundamentals
+- Asynchronous processing
+- Backend performance optimization
+- Unit testing and integration testing
+- JUnit and Mockito
+- Postman
+C. Generative AI and LLM engineering
+This is one of the strongest areas to highlight on your website.
+
+LLM engineering
+- Large Language Models (LLMs)
+- Prompt Engineering
+- Context Engineering
+- Prompt Caching
+- Structured Outputs
+- Function Calling / Tool Calling
+- Multi-model integration
+- Embedding Models
+- LLM Evaluation concepts
+- Token and cost optimization
+RAG architectures
+- Naive RAG
+- Advanced RAG
+- Hybrid Search
+- Semantic Search
+- Re-ranking
+- Agentic RAG
+- Graph RAG
+- Corrective RAG
+- Vector and Vectorless RAG approaches
+- Retrieval Optimization
+Frameworks and technologies
+
+
+
+
+
+
+
+
+
+
+LangChain
+
+
+
+
+
+
+
+
+
+
+
+
+LangGraph
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Foundry
+
+
+
+
+
+
+
+
+
+
+
+
+Mem0
+
+
+
+
+
+
+
+
+
+
+
+
+MCP / FastMCP
+
+
+
+
+
+
+
+
+
+
+
+
+CrewAI
+
+
+
+D. Agentic AI engineering
+This is an important differentiator in your technical profile.
+
+Your discussions and implementation work cover:
+- Single-agent and multi-agent systems
+- Agent orchestration
+- Router agents
+- Planner agents
+- Specialized worker agents
+- Dynamic tool discovery
+- Tool-driven workflows
+- Agent handoffs
+- Agent memory management
+- Context management
+- Task ownership and coordination
+- Multi-agent communication
+- Human-in-the-loop workflows
+- MCP-based tool integrations
+- Agentic workflow execution
+- Enterprise AI governance concepts
+Advanced concepts you have explored:
+- Short-term and long-term memory
+- Semantic and episodic memory
+- Procedural memory
+- Shared memory across agents
+- Task leasing and atomic task claiming
+- Idempotency
+- Progressive tool disclosure
+- Semantic tool discovery using SBERT
+- Deterministic orchestration
+- Identity and access control for AI tools
+E. Databases and storage
+Database / Technology	Application
+MongoDB	NoSQL database and backend applications
+PostgreSQL	Relational database
+pgvector	Vector storage and semantic retrieval
+Snowflake	Data warehouse
+Redis	Caching and fast data access
+Neo4j	Graph database concepts
+
+Additional concepts:
+- Vector databases
+- Vector indexing
+- Embedding storage
+- Hybrid retrieval
+- Database schema design
+- Memory persistence
+F. Cloud, DevOps and infrastructure
+Cloud and deployment
+- Microsoft Azure
+- Azure Virtual Machines
+- Azure Kubernetes Service (AKS)
+- Azure App Service
+- Docker
+- Kubernetes
+CI/CD and automation
+- Git
+- GitHub
+- GitHub Actions
+- Jenkins
+- Gradle
+- CI/CD pipelines
+- Automated deployment
+Workflow and data orchestration
+- Apache Airflow
+- Snowflake integrations
+- ETL / ELT pipelines
+- Batch processing
+G. Observability and distributed tracing
+Another interesting area of your experience is enterprise observability.
+
+Technologies discussed and used:
+- Datadog
+- Grafana
+- Loki
+- Tempo
+- OpenTelemetry (OTel)
+- OTLP
+- Grafana Alloy
+- Promtail
+- Fluent Bit
+Technical concepts:
+- Distributed tracing
+- Trace ID and Span ID propagation
+- Request correlation
+- Agent execution tracing
+- MCP server observability
+- Log aggregation
+- Metrics and monitoring
+- End-to-end request tracking
+You have also explored tracing across a multi-component AI architecture involving UI, gateways, core services, Microsoft Foundry, and MCP servers.
+H. Other technologies
+- React JS
+- HTML5
+- CSS3
+- Streamlit
+- Locust
+- NATS
+- Server-Sent Events (SSE)
+- WebSockets
+- Kafka fundamentals
+- OpenCV
+- RapidOCR
+- ONNX Runtime
+- Pillow
+- NumPy
+
+3. Projects and technical implementations
+I would give this section significant importance on your personal website. Rather than presenting yourself as someone who simply knows technologies, showcase the engineering problems you are working to solve.
+
+Here are the projects and POCs from our discussions.
+
+
+
+
+
+
+
+
+
+
+1. Enterprise Super Agent Architecture
+Featured project
+- Router and planner agents
+- Specialized worker agents
+- Dynamic task orchestration
+- Shared context and memory
+- Task ownership and coordination
+- Concurrent execution management
+- Tool discovery and MCP integration
+Focus: Building scalable, extensible multi-agent systems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Agent Memory Management System
+- Mem0 integration
+- PostgreSQL and pgvector
+- Short-term and long-term memory
+- Episodic and semantic memory
+- Memory retrieval and persistence
+- Context restoration across conversations
+Focus: Giving AI agents persistent context and continuity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. Advanced RAG Engineering
+- Document ingestion
+- Embedding generation
+- Vector search
+- Hybrid retrieval
+- Re-ranking
+- Agentic retrieval workflows
+- Knowledge-grounded responses
+Focus: Improving retrieval quality and contextual accuracy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. Enterprise AI Observability
+- End-to-end trace propagation
+- Agent execution monitoring
+- MCP tool invocation tracing
+- OpenTelemetry integration
+- Datadog and Grafana ecosystem
+- Request and span correlation
+Focus: Understanding and monitoring distributed AI execution.
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. Employee Leave Assistant
+- AI-powered employee assistant
+- Employee information retrieval
+- Leave application tools
+- Manager identification
+- Approval request workflows
+- Streamlit interface
+Focus: Tool-driven enterprise workflow automation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. Event-Driven Notification Architecture
+- NATS messaging
+- SSE-based notifications
+- Real-time UI updates
+- Event-driven architecture
+- Extensible downstream integrations
+- Email and Microsoft Teams integration concepts
+Focus: Decoupled real-time notification infrastructure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+7. Intelligent OCR and Document Processing
+- RapidOCR
+- ONNX Runtime
+- OpenCV preprocessing
+- Image processing with Pillow and NumPy
+- OCR versus Vision Language Model evaluation
+- Document understanding
+Focus: Combining traditional OCR and AI-based document understanding.
+
+
+
+Note: Some of these are implemented components, while others are POCs, architecture explorations, or ongoing engineering work. Your website should label them accurately.
+4. Engineering capabilities
+Beyond technologies, these are the capabilities worth communicating to recruiters and engineering leaders.
+Capability	What it communicates
+Backend architecture	Designing scalable backend services
+API engineering	Building REST APIs and integrations
+System design	Understanding distributed systems
+AI architecture	Designing LLM-powered applications
+Agent orchestration	Coordinating multiple autonomous agents
+RAG engineering	Building knowledge-grounded AI systems
+Memory engineering	Designing persistent agent memory
+Cloud deployment	Deploying containerized applications
+Observability	Monitoring distributed applications
+Workflow automation	Building intelligent automation systems
+Performance engineering	Load testing and optimization
+Enterprise integration	Connecting AI with enterprise services
+
+5. Technical interests and emerging areas
+These are areas you have been exploring and can include under an Exploring section rather than claiming production expertise.
+- Agentic Resource Discovery (ARD)
+- Universal Tool Calling Protocol (UTCP)
+- Open Knowledge Format (OKF)
+- Code intelligence and AST analysis
+- AI-powered codebase understanding
+- Graph-based knowledge systems
+- Multi-agent coordination
+- Context engineering
+- AI-powered ETL/ELT
+- Fine-tuning and LoRA
+- Model evaluation and optimization
+- Event-driven agent architectures
+6. Writing and knowledge sharing
+This should be a dedicated section on your website, not just a small list of links.
+
+Your content strategy has been centered on learning in public, writing practical engineering articles, and sharing your technical understanding.
+
+Suggested section title: Technical Writing & Engineering Insights
+
+Topics you can showcase:
+- Agentic AI and multi-agent architectures
+- LLM engineering
+- RAG architectures
+- AI memory systems
+- Backend engineering
+- System design and distributed systems
+- Observability and monitoring
+- Developer productivity
+- Emerging AI research papers
+Your preferred publishing approach has been:
+- Medium as your primary publishing platform.
+- LinkedIn as your distribution channel.
+- Approximately two articles per week.
+- Practical, reflective, engineering-focused writing rather than AI hype.
+Recent article topic
+The Elephant-Goldfish Model: Rethinking Memory in AI Systems
+Google Research · AI Memory · LLM Engineering
+
+An example of the research-oriented engineering content you can feature.
+
+7. Recommended website navigation
+Based on your technical profile, I would structure your single-page portfolio like this:
+Your Name
+Engineering Intelligent Systems.
+Backend Engineering × Agentic AI × Distributed Systems
+
+Python | Java | LLMs | Multi-Agent Systems | Azure
+
+[GitHub] · [LinkedIn] · [Medium] · [Email]
+
+01. About
+
+A concise professional introduction and engineering philosophy.
+
+02. Technical Expertise
+
+Languages, backend, AI, databases, cloud and infrastructure.
+
+03. Featured Projects
+
+Your 4–6 strongest engineering projects, with architecture and technical details.
+
+04. Technical Writing
+
+Medium article cards with publication dates, descriptions and links.
+
+05. What I'm Exploring
+
+Emerging technologies, research papers and engineering experiments.
+
+06. Contact
+
+Email, LinkedIn, GitHub and other professional links.
+
+Built with curiosity. Engineered with purpose.
