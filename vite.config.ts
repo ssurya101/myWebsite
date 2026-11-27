@@ -2,8 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-// Custom domain => base '/'. For https://<user>.github.io/<repo>/ without a custom domain, set base to '/<repo>/'.
+// GitHub project sites are hosted below the repository name. This makes Vite
+// emit `/myWebsite/assets/...` URLs instead of `/assets/...` URLs.
 export default defineConfig({
-  base: '/',
+  base: '/myWebsite/',
   plugins: [react(), tailwindcss()],
 })
