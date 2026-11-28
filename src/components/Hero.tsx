@@ -18,46 +18,13 @@ const socials = [
   { label: 'Email', href: `mailto:${profile.email}`, Icon: Mail },
 ]
 
-const floating = [
-  { text: 'MCP', cls: 'left-[6%] top-[28%]', delay: 0 },
-  { text: 'LangGraph', cls: 'right-[8%] top-[24%]', delay: 0.4 },
-  { text: 'OpenTelemetry', cls: 'right-[12%] bottom-[26%]', delay: 0.8 },
-  { text: 'pgvector', cls: 'left-[10%] bottom-[24%]', delay: 1.2 },
-]
-
 export function Hero() {
   return (
     <section id="home" className="relative flex min-h-screen items-center overflow-hidden pb-24 pt-32">
       <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
         <div className="orb-a absolute -left-[10%] top-[5%] size-[40rem] rounded-full bg-accent/20 blur-[140px]" />
         <div className="orb-b absolute -right-[10%] top-[30%] size-[36rem] rounded-full bg-accent-2/20 blur-[140px]" />
-        <div
-          className="absolute inset-0 opacity-[0.35]"
-          style={{
-            backgroundImage:
-              'linear-gradient(rgb(255 255 255 / 0.04) 1px, transparent 1px), linear-gradient(90deg, rgb(255 255 255 / 0.04) 1px, transparent 1px)',
-            backgroundSize: '64px 64px',
-            maskImage: 'radial-gradient(ellipse at center, black 30%, transparent 75%)',
-            WebkitMaskImage: 'radial-gradient(ellipse at center, black 30%, transparent 75%)',
-          }}
-        />
       </div>
-
-      {floating.map((f) => (
-        <motion.span
-          key={f.text}
-          aria-hidden
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, y: [0, -8, 0] }}
-          transition={{
-            opacity: { delay: 1 + f.delay, duration: 0.8 },
-            y: { delay: 1 + f.delay, duration: 6, repeat: Infinity, ease: 'easeInOut' },
-          }}
-          className={`absolute hidden rounded-full border border-line bg-white/[0.03] px-3 py-1 font-mono text-xs text-muted lg:block ${f.cls}`}
-        >
-          {f.text}
-        </motion.span>
-      ))}
 
       <motion.div
         variants={container}

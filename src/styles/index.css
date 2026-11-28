@@ -24,7 +24,12 @@
   }
   body {
     margin: 0;
-    background: var(--color-ink);
+    background-color: var(--color-ink);
+    background-image:
+      linear-gradient(rgb(255 255 255 / 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgb(255 255 255 / 0.035) 1px, transparent 1px);
+    background-size: 56px 56px;
+    background-attachment: fixed;
     color: #f5f5f7;
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
